@@ -1,12 +1,12 @@
 import React from "react";
-// import Header from "../Containers/Header";
 import SearchBar from "../Containers/SearchBar";
+import Banner from "../Containers/Banner";
 
 const HomePage = () => {
   return (
     <>
-      {/* <Header /> */}
       <SearchBar />
+      <Banner />
     </>
   );
 };

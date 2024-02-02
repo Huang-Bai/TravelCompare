@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-      <div className="container-fluid d-flex justify-content-between px-5">
+      <div className="container-fluid d-flex justify-content-between px-md-4 px-lg-5">
         {/* 網站名稱 */}
         <div>
-          <Link to="/" className="nav-link">
+          <Link to="/TravelCompare/" className="nav-link">
             <span className="navbar-brand">Travel Compare </span>
           </Link>
         </div>
@@ -27,7 +27,7 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link to="/favorites" className="nav-link">
+              <Link to="/TravelCompare/favorites" className="nav-link">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -45,7 +45,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/auth" className="nav-link">
+              <Link to="/TravelCompare/auth" className="nav-link">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

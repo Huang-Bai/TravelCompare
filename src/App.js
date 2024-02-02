@@ -10,9 +10,9 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/favorites" element={<FavoritesPage />} />
-        <Route path="/auth" element={<AuthPage />} />
+        <Route path="/TravelCompare/" element={<HomePage />} />
+        <Route path="/TravelCompare/favorites" element={<FavoritesPage />} />
+        <Route path="/TravelCompare/auth" element={<AuthPage />} />
       </Routes>
     </BrowserRouter>
   );
