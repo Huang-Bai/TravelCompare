@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/travelcompare/static/js/main.15acd5a2.js",
-    "index.html": "/travelcompare/index.html",
-    "main.15acd5a2.js.map": "/travelcompare/static/js/main.15acd5a2.js.map"
+    "main.js": "/TravelCompare/static/js/main.15acd5a2.js",
+    "index.html": "/TravelCompare/index.html",
+    "main.15acd5a2.js.map": "/TravelCompare/static/js/main.15acd5a2.js.map"
   },
   "entrypoints": [
     "static/js/main.15acd5a2.js"
