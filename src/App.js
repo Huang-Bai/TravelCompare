@@ -1,11 +1,20 @@
-import React, { useState, useEffect } from "react";
-import Nav from "./Layout/Header";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./Containers/Header";
+import HomePage from "./Layout/HomePage";
+import FavoritesPage from "./Layout/FavoritesPage";
+import AuthPage from "./Layout/AuthPage";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-    </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/favorites" element={<FavoritesPage />} />
+        <Route path="/auth" element={<AuthPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
