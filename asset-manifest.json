@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/github.com/TravelCompare/static/js/main.15acd5a2.js",
-    "index.html": "/github.com/TravelCompare/index.html",
-    "main.15acd5a2.js.map": "/github.com/TravelCompare/static/js/main.15acd5a2.js.map"
+    "main.js": "/github.com/travelcompare/static/js/main.15acd5a2.js",
+    "index.html": "/github.com/travelcompare/index.html",
+    "main.15acd5a2.js.map": "/github.com/travelcompare/static/js/main.15acd5a2.js.map"
   },
   "entrypoints": [
     "static/js/main.15acd5a2.js"
