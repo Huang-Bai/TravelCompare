@@ -45,7 +45,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/TravelCompare/auth" className="nav-link">
+              <Link to="/TravelCompare/login" className="nav-link">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

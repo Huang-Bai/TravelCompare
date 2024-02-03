@@ -1,12 +1,16 @@
 import React from "react";
 import "./Banner.css";
-import img1 from "../image/luca-bravo-O453M2Liufs-unsplash_s.jpg";
-import img2 from "../image/jake-blucker-tMzCrBkM99Y-unsplash_s.jpg";
-import img3 from "../image/dino-reichmuth-A5rCN8626Ck-unsplash_s.jpg";
+import img1 from "../assets/damiano-baschiera-hFXZ5cNfkOk-unsplash.jpg";
+import img2 from "../assets/jake-blucker-tMzCrBkM99Y-unsplash_s.jpg";
+import img3 from "../assets/dino-reichmuth-A5rCN8626Ck-unsplash_s.jpg";
 
 const Banner = () => {
   return (
-    <div id="carouselHomeBanner" className="carousel slide mb-5">
+    <div
+      id="carouselHomeBanner"
+      className="carousel slide mb-5"
+      data-bs-ride="carousel"
+    >
       {/* 目前位置標記 */}
       <div className="carousel-indicators">
         <button

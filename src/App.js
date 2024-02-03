@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Containers/Header";
 import HomePage from "./Layout/HomePage";
 import FavoritesPage from "./Layout/FavoritesPage";
-import AuthPage from "./Layout/AuthPage";
+import LoginPage from "./Layout/LoginPage";
+import RegisterPage from "./Layout/RegisterPage";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Routes>
         <Route path="/TravelCompare/" element={<HomePage />} />
         <Route path="/TravelCompare/favorites" element={<FavoritesPage />} />
-        <Route path="/TravelCompare/auth" element={<AuthPage />} />
+        <Route path="/TravelCompare/login" element={<LoginPage />} />
+        <Route path="/TravelCompare/register" element={<RegisterPage />} />
       </Routes>
     </BrowserRouter>
   );
