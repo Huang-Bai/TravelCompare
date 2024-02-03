@@ -6,7 +6,7 @@ import img3 from "../image/dino-reichmuth-A5rCN8626Ck-unsplash_s.jpg";
 
 const Banner = () => {
   return (
-    <div id="carouselHomeBanner" className="carousel slide container-lg">
+    <div id="carouselHomeBanner" className="carousel slide mb-5">
       {/* 目前位置標記 */}
       <div className="carousel-indicators">
         <button
@@ -31,27 +31,23 @@ const Banner = () => {
         ></button>
       </div>
       {/* 幻燈片內容 */}
-      <div className="carousel-inner">
+      <div className="carousel-inner rounded">
         <div className="carousel-item active">
-          <img
-            src={img1}
-            className="d-block w-100 h-50 overflow-y-hidden "
-            alt="..."
-          />
+          <img src={img1} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block ">
             <h5 className="fs-1 fw-bolder">完美行程就找 Travel Compare</h5>
           </div>
         </div>
         <div className="carousel-item">
           <img src={img2} className="d-block w-100" alt="..." />
-          <div className="carousel-caption d-none d-md-block ">
-            <h5 className="fs-1 fw-bolder">搜尋你的最佳旅行</h5>
+          <div className="carousel-caption d-none d-md-block">
+            <h5 className="fs-1 fw-bolder">篩選出您的最佳行程</h5>
           </div>
         </div>
         <div className="carousel-item">
           <img src={img3} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
-            <h5 className="fs-1 fw-bolder">何時何地，隨時出發</h5>
+            <h5 className="fs-1 fw-bolder">何時何地，隨時準備出發</h5>
           </div>
         </div>
       </div>

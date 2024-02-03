@@ -2,4 +2,5 @@
   transform: translateY(-20%);
   bottom: 0;
   top: 50%;
+  text-shadow: black 0.1em 0.1em 0.9em;
 }

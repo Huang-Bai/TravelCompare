@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-      <div className="container-fluid d-flex justify-content-between px-md-4 px-lg-5">
+    <nav className="navbar navbar-expand-lg navbar-dark bd-blue-800 sticky-top">
+      <div className="container py-1 py-md-2 py-lg-3">
         {/* 網站名稱 */}
         <div>
-          <Link to="/TravelCompare/" className="nav-link">
-            <span className="navbar-brand">Travel Compare </span>
+          <Link to="/TravelCompare" className="navbar-brand fs-3">
+            Travel Compare
           </Link>
         </div>
         {/* 響應式按鈕 */}
@@ -23,7 +23,7 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        {/* 分頁 */}
+        {/* 分頁按鈕 */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -33,7 +33,7 @@ const Header = () => {
                   width="16"
                   height="16"
                   fill="currentColor"
-                  className="bi bi-heart-fill ms-2 me-1"
+                  className="bi bi-heart-fill ms-2 me-1 "
                   viewBox="0 0 16 16"
                 >
                   <path
