@@ -41,7 +41,7 @@ const Header = () => {
                     d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
                   />
                 </svg>
-                <span class="align-middle">最愛</span>
+                <span className="align-middle">最愛</span>
               </Link>
             </li>
             <li className="nav-item">
@@ -60,7 +60,7 @@ const Header = () => {
                     d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
                   />
                 </svg>
-                <span class="align-middle">登入</span>
+                <span className="align-middle">登入</span>
               </Link>
             </li>
           </ul>

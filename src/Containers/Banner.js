@@ -1,6 +1,6 @@
 import React from "react";
 import "./Banner.css";
-import img1 from "../assets/damiano-baschiera-hFXZ5cNfkOk-unsplash.jpg";
+import img1 from "../assets/luca-bravo-O453M2Liufs-unsplash_s.jpg";
 import img2 from "../assets/jake-blucker-tMzCrBkM99Y-unsplash_s.jpg";
 import img3 from "../assets/dino-reichmuth-A5rCN8626Ck-unsplash_s.jpg";
 

@@ -3,7 +3,7 @@ import "./SearchBar.css";
 
 const SearchBar = () => {
   return (
-    <div class="bd-blue-800 mb-5">
+    <div className="bd-blue-800 mb-5">
       <h2 className="container pt-4 pb-2 text-light fw-bolder">
         搜尋您的最佳旅行
       </h2>
