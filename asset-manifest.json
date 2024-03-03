@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/TravelCompare/static/css/main.c78f9736.css",
-    "main.js": "/TravelCompare/static/js/main.b2d1056f.js",
+    "main.css": "/TravelCompare/static/css/main.f5b5158a.css",
+    "main.js": "/TravelCompare/static/js/main.d03ef835.js",
     "static/media/damiano-baschiera-hFXZ5cNfkOk-unsplash.jpg": "/TravelCompare/static/media/damiano-baschiera-hFXZ5cNfkOk-unsplash.25b03352d02877afc5bc.jpg",
     "static/media/dino-reichmuth-A5rCN8626Ck-unsplash_s.jpg": "/TravelCompare/static/media/dino-reichmuth-A5rCN8626Ck-unsplash_s.f7cdb434601c4020ef54.jpg",
     "static/media/jake-blucker-tMzCrBkM99Y-unsplash_s.jpg": "/TravelCompare/static/media/jake-blucker-tMzCrBkM99Y-unsplash_s.804baf6c5b19b5f2014c.jpg",
     "static/media/luca-bravo-O453M2Liufs-unsplash_s.jpg": "/TravelCompare/static/media/luca-bravo-O453M2Liufs-unsplash_s.121f7dea12819b2c44c7.jpg",
     "static/media/WebLogo.svg": "/TravelCompare/static/media/WebLogo.521ed84296014116591f645d4fb4824e.svg",
     "index.html": "/TravelCompare/index.html",
-    "main.c78f9736.css.map": "/TravelCompare/static/css/main.c78f9736.css.map",
-    "main.b2d1056f.js.map": "/TravelCompare/static/js/main.b2d1056f.js.map"
+    "main.f5b5158a.css.map": "/TravelCompare/static/css/main.f5b5158a.css.map",
+    "main.d03ef835.js.map": "/TravelCompare/static/js/main.d03ef835.js.map"
   },
   "entrypoints": [
-    "static/css/main.c78f9736.css",
-    "static/js/main.b2d1056f.js"
+    "static/css/main.f5b5158a.css",
+    "static/js/main.d03ef835.js"
   ]
 }
