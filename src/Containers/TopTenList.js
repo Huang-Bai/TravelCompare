@@ -9,7 +9,7 @@ const TopTenList = () => {
       // 定义异步函数来获取数据
       try {
         const response = await axios.get(
-          "http://ec2-35-76-107-39.ap-northeast-1.compute.amazonaws.com/itinerary/getIndexData"
+          "https://www.travelcompare.store/itinerary/getIndexData"
         ); // 使用axios发送GET请求来获取数据
         setTopTen(response.data.user); // 将获取的数据更新到topTen状态中
       } catch (error) {
